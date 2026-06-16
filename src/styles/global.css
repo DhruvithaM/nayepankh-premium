@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  overflow-x: hidden;
+
+  background: #020617;
+
+  font-family: 'Poppins', sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+
+  color: white;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,89 @@
+.admin {
+
+  min-height: 100vh;
+
+  background: #020617;
+
+  padding: 120px 8%;
+
+  color: white;
+}
+
+.admin h1 {
+
+  font-size: 60px;
+
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.table-container {
+
+  overflow-x: auto;
+}
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+th {
+
+  background: #38bdf8;
+
+  padding: 20px;
+
+  text-align: left;
+
+  color: white;
+}
+
+td {
+
+  padding: 20px;
+
+  border-bottom:
+    1px solid rgba(255,255,255,0.08);
+
+  color: #e2e8f0;
+}
+
+tr:hover {
+
+  background:
+    rgba(255,255,255,0.03);
+}
+
+.delete-btn {
+
+  padding: 10px 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: crimson;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+.delete-btn:hover {
+
+  transform: scale(1.05);
+}
