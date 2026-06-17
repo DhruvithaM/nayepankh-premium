@@ -32,7 +32,7 @@ function Contact() {
 
         const response =
           await axios.post(
-            "http://localhost:5000/contact",
+            "https://nayepankh-premium.onrender.com/contact",
             formData
           );
 

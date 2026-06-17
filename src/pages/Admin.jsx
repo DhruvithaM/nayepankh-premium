@@ -23,7 +23,7 @@ function Admin() {
 
         const response =
           await axios.get(
-            "http://localhost:5000/volunteers"
+            "https://nayepankh-premium.onrender.com/volunteers"
           );
 
         setVolunteers(
@@ -46,7 +46,7 @@ function Admin() {
     try {
 
       await axios.delete(
-        `http://localhost:5000/volunteer/${id}`
+        `https://nayepankh-premium.onrender.com/volunteer/${id}`
       );
 
       fetchVolunteers();
