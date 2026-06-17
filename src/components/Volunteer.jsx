@@ -33,7 +33,7 @@ function Volunteer() {
 
         const response =
           await axios.post(
-            "http://localhost:5000/volunteer",
+            "https://nayepankh-premium.onrender.com/volunteer",
             formData
           );
 
